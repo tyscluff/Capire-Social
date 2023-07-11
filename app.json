@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "myCapire",
+    "slug": "myCapire",
+    "owner": "tyscluff",
+    "version": "2.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/CapireSquare1024.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/CapireSquare1024.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF6C37" 
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mycapire.capire",
+      "buildNumber": "2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/CapireSquare1024.png",
+        "backgroundColor": "#FF6C37"
+      },
+      "package": "com.mycapire.capire",
+      "versionCode": "2"
+    },
+    "web": {
+      "favicon": "./assets/baseballLogoTransparent.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "648b901e-2f5e-4a56-8553-158e2341b297"
+      }
+    }
+  }
+}
